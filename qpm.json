@@ -44,7 +44,7 @@
   "dependencies": [
     {
       "id": "beatsaber-hook",
-      "versionRange": "^5.0.0",
+      "versionRange": "^5.1.9",
       "additionalData": {}
     },
     {
@@ -56,7 +56,22 @@
     },
     {
       "id": "paper",
-      "versionRange": "^3.0.0",
+      "versionRange": "^3.6.3",
+      "additionalData": {}
+    },
+    {
+      "id": "bsml",
+      "versionRange": "^0.4.29",
+      "additionalData": {}
+    },
+    {
+      "id": "config-utils",
+      "versionRange": "^1.4.2",
+      "additionalData": {}
+    },
+    {
+      "id": "custom-types",
+      "versionRange": "^0.17.7",
       "additionalData": {}
     }
   ]
