@@ -1,4 +1,5 @@
 #include "main.hpp"
+#include "custom-types/shared/register.hpp"
 
 #include "GlobalNamespace/StandardLevelDetailView.hpp"
 #include "GlobalNamespace/StandardLevelDetailViewController.hpp"
@@ -10,6 +11,9 @@
 #include "ModSettingsViewController.hpp"
 
 #include "scotland2/shared/modloader.h"
+
+
+using namespace GlobalNamespace;
 
 static modloader::ModInfo modInfo{MOD_ID, VERSION, 0};
 
