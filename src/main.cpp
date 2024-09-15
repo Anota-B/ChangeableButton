@@ -31,7 +31,9 @@ MAKE_HOOK_MATCH(LevelUIHook, &GlobalNamespace::StandardLevelDetailViewController
     UnityEngine::GameObject* gameObject = actionButton->get_gameObject();
     HMUI::CurvedTextMeshPro* actionButtonText = gameObject->GetComponentInChildren<HMUI::CurvedTextMeshPro*>();
 
-    actionButtonText->set_text(getModConfig().PlayButtonText);
+    std::string PlayButtonT = getModConfig().PlayButtonText.GetValue();
+
+    actionButtonText->set_text(PlayButtonT);
 }
 
 
